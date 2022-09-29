@@ -1,8 +1,9 @@
-1) git init  - инициализация git
-2) git config --global user.name InF1 "Andrey" - имя пользователя
-3) git config --global user.email andrey@example.com  - мэил пользователя
-4) git config --list
-
+1)	git init  - инициализация git
+2)	git config --global user.name InF1 "Andrey" - имя пользователя
+3)	git config --global user.email andrey@example.com  - мэил пользователя
+4)	git config --list
+5)	git status
+6)
 git branch -v
 
 
@@ -18,7 +19,7 @@ git fetch
 
 git pull
 
-git status
+
 
 git add .
 

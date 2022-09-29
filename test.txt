@@ -3,9 +3,13 @@
 3)	git config --global user.email andrey@example.com  - мэил пользователя
 4)	git config --list
 5)	git status
-6)
-git branch -v
+5)	git add .
+6)	git status
+7)	git commit -a -m"add file"
+8)	
 
+
+git branch -v
 
 git log
 
@@ -20,10 +24,6 @@ git fetch
 git pull
 
 
-
-git add .
-
-git commit -a -m"add file"
 
 http://kdiff3.sourceforge.net/
 
