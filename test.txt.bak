@@ -1,11 +1,15 @@
 1)	git init  - инициализация git
-2)	git config --global user.name InF1 "Andrey" - имя пользователя
+2)	git config --global user.name "Andrey" - имя пользователя
 3)	git config --global user.email andrey@example.com  - мэил пользователя
 4)	git config --list
 5)	git status
-6)
-git branch -v
+5)	git add .
+6)	git status
+7)	git commit -a -m"add file"
+8)	
 
+
+git branch -v
 
 git log
 
@@ -19,14 +23,6 @@ git fetch
 
 git pull
 
-
-
-git add .
-
-git commit -a -m"add file"
-
-http://kdiff3.sourceforge.net/
-
 git config --global merge.tool kdiff3
 
 git config --global mergetool.kdiff3.cmd '"w:\\Program Files\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED'
@@ -34,8 +30,6 @@ git config --global mergetool.kdiff3.cmd '"w:\\Program Files\\KDiff3\\kdiff3" $B
 git merge
 
 git mergetool
-
-
 
 git branch 
 
@@ -46,3 +40,5 @@ git checkout -b branch3
 
 https://github.com/
 https://git-scm.com/
+
+http://kdiff3.sourceforge.net/
