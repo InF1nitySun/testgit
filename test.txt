@@ -7,10 +7,6 @@
 6)	git status
 7)	git commit -a -m"add file"
 8)	
-
-
-
-
 git branch -v
 
 git log
